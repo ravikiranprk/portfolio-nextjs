@@ -10,7 +10,7 @@ type ButtonProps = {
 
 const Button = ({ text, className, id } : ButtonProps ) => {
   return (
-    <a className={`${className ?? ''} relative z-20 cursor-pointer`} href='#projects' >
+    <a className={`${className ?? ''} relative z-20 cursor-pointer`} href='#contact' >
       <div className="px-4 py-4 rounded-lg bg-[#181818] text-white flex justify-center items-center relative cursor-pointer overflow-hidden group border-black border-1">
         <div 
           className='absolute -right-10 origin-center top-1/2 -translate-y-1/2 w-[120%] h-[120%] group-hover:size-10 group-hover:right-10 rounded-full bg-white text-[#181818] transition-all duration-500 '
