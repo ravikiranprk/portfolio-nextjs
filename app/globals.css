@@ -1,0 +1,140 @@
+@import "tailwindcss";
+
+:root {
+  --background: #171717;
+  --foreground: #ffffff;
+}
+
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+  color-scheme: dark light;
+}
+
+:root:has(#theme-toggle[value="dark"]) {
+  --background: #313030;
+  --foreground: #cfcfcf;
+}
+
+:root:has(#theme-toggle[value="light"]) {
+  --background: #cfcfcf;
+  --foreground: #313030;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer utilities {
+  .li-hover ul li {
+    @apply hover:bg-zinc-200 hover:text-[#111111] rounded-4xl px-2 py-1;
+  }
+  .li-hover-light ul li {
+    @apply hover:bg-[#111111] hover:text-zinc-200 rounded-4xl px-2 py-1;
+  }
+  .li-center li a {
+    @apply flex justify-center items-center gap-0.5;
+  }
+  .hero-text {
+    @apply flex flex-col justify-center md:text-[60px] text-[30px] font-semibold relative z-10 pointer-events-none;
+  }
+  
+  .text-foreground {
+    color: var(--foreground);
+  }
+  .text-background {
+    background: var(--background);
+  }
+  .hero-text h1 {
+    @apply xl:text-6xl lg:text-5xl md:text-4xl text-3xl h-12 md:h-16;
+  }
+  .skills-list li span {
+    @apply !text-amber-700;
+  }
+  .internship {
+    @apply flex flex-col gap-4;
+  }
+  .straive {
+    @apply flex flex-col gap-4;
+  }
+  .straive p:nth-of-type(2) span:nth-of-type(1) {
+    @apply !text-emerald-600;
+  }
+  .straive p:nth-of-type(2) span {
+    @apply !text-amber-600;
+  }
+  .about-text span {
+    @apply !text-rose-600;
+  }
+  .about-qualifications span {
+    @apply !text-emerald-600;
+  }
+  .about1 {
+    @apply flex flex-col gap-4;
+  }
+  .contact-input {
+    @apply flex items-start justify-center gap-4;
+  }
+  .contact-input input, .contact-input textarea {
+    @apply w-full bg-zinc-200 rounded-lg border-2 border-zinc-300 text-black;
+  }
+}
+
+body {
+  background-image: url("/bg.png");
+}
+
+.slide {
+  display: inline-block;
+  flex-direction: column;
+  transition: all cubic-bezier(0.71, 0.03, 0.34, 1);
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  animation: wordSlider 21s infinite cubic-bezier(0.9, 0.01, 0.3, 0.99);
+}
+
+@keyframes wordSlider {
+  0% {
+    transform: translateY(0.5%);
+  }
+  12.5% {
+    transform: translateY(-12.5%);
+  }
+  25% {
+    transform: translateY(-25%);
+  }
+  37.5% {
+    transform: translateY(-37.5%);
+  }
+  50% {
+    transform: translateY(-50%);
+  }
+  62.5% {
+    transform: translateY(-62.5%);
+  }
+  75% {
+    transform: translateY(-75%);
+  }
+  87.5% {
+    transform: translateY(-87.5%);
+  }
+}
+
+.logo {
+  font-weight: 900 !important;  
+}
+
+
+
