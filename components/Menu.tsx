@@ -13,7 +13,7 @@ const Menu = () => {
   }
 
   return (
-    <menu className={`flex lg:justify-evenly justify-between lg:items-center items-start mt-5 mb-5 w-11/12 mx-auto ${ themeValue === "dark" ? 'text-zinc-100 li-hover' : 'text-[#292929] li-hover-light'} gap-8 z-50`}>
+    <menu className={`flex justify-evenly lg:items-center items-start mt-5 mb-5 w-11/12 mx-auto ${ themeValue === "dark" ? 'text-zinc-100 li-hover' : 'text-[#292929] li-hover-light'} gap-8 z-50`}>
       {/* name */}
       <h1 className='logo font-bold text-xl'><a href="/">Ravi Kiran Palaparthi</a></h1>
 
@@ -28,7 +28,7 @@ const Menu = () => {
         <li className='flex justify-center items-center'><a href="/CVWebDev.pdf" download><FaFileDownload />Resume</a></li>
       </ul>
 
-      <div className="md:hidden w-[30vw]" onClick={toggleMobileMenu}>
+      <div className="md:hidden w-[50vw]" onClick={toggleMobileMenu}>
         {
           isMobileMenuOpen ? (
             <span>
