@@ -20,11 +20,11 @@ html {
 
 :root:has(#theme-toggle[value="dark"]) {
   --background: #313030;
-  --foreground: #cfcfcf;
+  --foreground: #e7e7e7;
 }
 
 :root:has(#theme-toggle[value="light"]) {
-  --background: #cfcfcf;
+  --background: #e7e7e7;
   --foreground: #313030;
 }
 
@@ -39,7 +39,7 @@ body {
     @apply hover:bg-zinc-200 hover:text-[#111111] rounded-4xl px-2 py-1;
   }
   .li-hover-light ul li {
-    @apply hover:bg-[#111111] hover:text-zinc-200 rounded-4xl px-2 py-1;
+    @apply hover:bg-[#111111] hover:text-zinc-200 rounded-4xl px-4 py-2;
   }
   .li-center li a {
     @apply flex justify-center items-center gap-0.5;
