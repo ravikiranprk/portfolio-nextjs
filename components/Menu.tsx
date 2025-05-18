@@ -1,6 +1,7 @@
 "use client";
 import { BookOpenCheck, BriefcaseBusiness, CircleUserRound, Home, Laptop, LucideSunDim, Mail, MenuIcon, Moon } from 'lucide-react';
 import React, { useState } from 'react';
+import { FaFileDownload } from 'react-icons/fa';
 
 const Menu = () => { 
   const [themeValue, setTheme] = useState("dark");
@@ -18,10 +19,11 @@ const Menu = () => {
         <li><a href="#skills"><BookOpenCheck />Skills</a></li>
         <li><a href="#experience"><BriefcaseBusiness />Experience</a></li>
         <li><a href="#contact"><Mail />Contact</a></li>
+        <li className='flex justify-center items-center'><a href="/CVWebDev.pdf" download><FaFileDownload />Resume</a></li>
       </ul>
 
       {/* navigation links for md and sm devices (mobile, tablet, etc.) */}
-      <ul className={`flex flex-col justify-center items-center gap-3 ${ themeValue === "dark"? 'border-zinc-300' : 'border-[#292929]'} border-2 rounded-full px-2 py-1 mx-auto li-center mobile-nav z-20 hidden`}>
+      <ul className={`flex flex-col justify-start items-center gap-3 ${ themeValue === "dark"? 'border-zinc-300' : 'border-[#292929]'} border-2 rounded-full px-2 py-1 mx-auto li-center mobile-nav z-20 hidden`}>
         <li><a href="/"><Home /></a></li>
         <li className={`${themeValue === "dark" ? 'text-zinc-300' : 'text-[#292929]'}`}>|</li>
         <li><a href="#about"><CircleUserRound />About</a></li>
