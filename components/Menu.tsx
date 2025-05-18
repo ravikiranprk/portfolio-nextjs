@@ -34,7 +34,7 @@ const Menu = () => {
             <span>
             <RiCloseLine size={30} className='hover:cursor-pointer' />
             {/* navigation links for md and sm devices (mobile, tablet, etc.) */}
-            <ul className={`absolute z-50 flex-col  justify-center items-start gap-3 ${ themeValue === "dark"? 'border-zinc-300' : 'border-[#292929]'} border-2 rounded-md px-4 py-2 li-center ${isMobileMenuOpen ? 'flex' : 'hidden'} w-fit bg-gray-800 text-zinc-200`}>
+            <ul className={`absolute z-50 flex-col justify-center items-start gap-3 ${ themeValue === "dark"? 'border-zinc-300' : 'border-[#292929]'} border-2 rounded-md px-4 py-2 li-center ${isMobileMenuOpen ? 'flex' : 'hidden'} w-fit bg-gray-800 text-zinc-200`}>
               <li><a href="#about"><CircleUserRound />About</a></li>
               <li><a href="#skills"><BookOpenCheck />Skills</a></li>
               <li><a href="#experience"><BriefcaseBusiness />Experience</a></li>
