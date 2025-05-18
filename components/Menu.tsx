@@ -23,7 +23,7 @@ const Menu = () => {
       </ul>
 
       {/* navigation links for md and sm devices (mobile, tablet, etc.) */}
-      <ul className={`flex flex-col justify-start items-center gap-3 ${ themeValue === "dark"? 'border-zinc-300' : 'border-[#292929]'} border-2 rounded-full px-2 py-1 mx-auto li-center mobile-nav z-20 hidden`}>
+      <ul className={`flex flex-col justify-start items-center gap-3 ${ themeValue === "dark"? 'border-zinc-300' : 'border-[#292929]'} border-2 rounded-md px-2 py-1 mx-auto li-center mobile-nav z-20 hidden`}>
         <li><a href="/"><Home /></a></li>
         <li className={`${themeValue === "dark" ? 'text-zinc-300' : 'text-[#292929]'}`}>|</li>
         <li><a href="#about"><CircleUserRound />About</a></li>
@@ -42,6 +42,10 @@ const Menu = () => {
           </button>
         </li>
       </ul>
+
+      <div className='flex justify-center items-center z-20 lg:hidden p-4'>
+        <a className="flex justify-center items-center gap-1.5 hover:bg-zinc-100 hover:text-[#111111] rounded-4xl px-2 py-1 font-semibold transition-all duration-500" href="/CVWebDev.pdf" download><FaFileDownload />Resume</a>
+      </div>
       
       {/* theme toggle button */}
       <button 
