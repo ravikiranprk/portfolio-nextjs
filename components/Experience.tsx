@@ -1,37 +1,9 @@
-import React from 'react'
+import React from 'react';
 
 const Experience = () => {
   return (
     <section id="experience" className="mt-14 mb-16 flex flex-col gap-8">
       <h2 className='text-3xl font-bold mb-4'>Work Experience</h2>
-      {/* Internship Details */}
-      <div className="internship">
-        {/* Internship Main */}
-        <div className='flex items-start justify-center gap-4'>
-          <div className="flex justify-center items-center">
-            <img src="/unified-mentor-logo.png" alt="Unified Mentor" className='w-16 h-16 sm:w-20 sm:h-20 rounded-lg' />
-          </div>
-          <div>
-            <h2 className="text-2xl font-bold">Fullstack Web Development Intern</h2>
-            <h3><span className="italic">Unified Mentor</span> | <span className="font-extralight italic">May 2025 - Present <br /> Remote</span></h3>
-            <br />
-          </div>
-        </div>
-
-        {/* Internship Description */}
-        <p>
-          I am currently working as an intern at <span className="font-bold"><a href="https://unifiedmentor.com/" target="_blank">Unified Mentor</a></span> as a <span className="font-bold">Fullstack Web Developer Intern</span>, which is a 3-month self-paced online internship program.
-        </p>
-        <p>
-          The internship program includes <span className='text-amber-600'>Fundamentals of Web Development</span>, <span className='text-amber-600'>Frontend Web Development</span>, <span className='text-amber-600'>Backend Web Development</span>, and <span className='text-amber-600'>Fullstack Web Development</span>. This is a <span className='text-emerald-400'>project-based</span> internship program, which evaluates the intern's skills and ability to work on real-world projects.
-        </p>
-        <p>
-          The intern goes through an intensive training proces from fundamentals (HTML, CSS, JavaScript) to fullstack development (MERN, MEAN, and MEVN). The frontend technologies include React.js, Angular, and Vue.js, and the backend technologies include Node.js, Express.js, and MongoDB. The intern also gets hands-on experience from designing to deployment.
-        </p>
-      </div>
-
-      <br />
-
       {/* Previous Work Experience Details */}
       <div className="straive">
         {/* Work Experience Main */}
