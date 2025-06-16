@@ -4,7 +4,7 @@ const Experience = () => {
   return (
     <section id="experience" className="mt-14 mb-16 flex flex-col gap-8">
       <h2 className='text-3xl font-bold mb-4'>Work Experience</h2>
-      {/* Previous Work Experience Details */}
+      {/* Work Experience Details */}
       <div className="straive">
         {/* Work Experience Main */}
         <div className="flex items-start justify-center gap-4">
