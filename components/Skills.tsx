@@ -192,7 +192,7 @@ const Skills = () => {
         <ul className='flex flex-wrap gap-6 justify-center items-center flex-2/3'>
           {
             skillIcons.map((skill) => (
-              <li key={skill.name}>
+              <li key={skill.name} title={skill.title}>
                 <skill.icon size={45} />
               </li>
             ))
