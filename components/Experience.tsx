@@ -12,7 +12,7 @@ const Experience = () => {
             <img src="/straive-logo.png" alt="Straive" className="w-32 h-16 sm:w-40 sm:h-20 bg-zinc-100 rounded-lg" />
           </div>
           <div>
-            <h2 className="text-2xl font-bold">Computer Science Subject Matter Expert</h2>
+            <h2 className="text-2xl font-bold">Executive - Computer Science (Subject Matter Expert)</h2>
             <h3><span className="italic">Straive</span> | <span className="font-extralight italic">Sep 2023 - April 2025 <br /> Remote</span></h3>
             <br />
           </div>
