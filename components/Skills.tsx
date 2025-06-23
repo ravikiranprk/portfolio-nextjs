@@ -28,98 +28,122 @@ const skillIcons = [
     {
         name: "HTML",
         icon: TiHtml5,
+        title: "HyperText Markup Language",
     },
     {
         name: "CSS",
         icon: IoLogoCss3,
+        title: "Cascading Style Sheets",
     },
     {
         name: "JavaScript",
         icon: SiJavascript,
+        title: "JavaScript",
     },
     {
         name: "TypeScript",
         icon: SiTypescript,
+        title: "TypeScript",
     },
     {
         name: "React",
         icon: FaReact,
+        title: "React",
     },
     {
         name: "Tailwind CSS",
         icon: SiTailwindcss,
+        title: "Tailwind CSS",
     },
     {
         name: "Node.js",
         icon: SiNodedotjs,
+        title: "Node.js",
     },
     {
         name: "Express",
         icon: SiExpress,
+        title: "Express.js",
     },
     {
         name: "Django",
         icon: SiDjango,
+        title: "Django",
     },
     {
         name: "MongoDB",
         icon: SiMongodb,
+        title: "MongoDB",
     },
     {
         name: "MySQL",
         icon: SiMysql,
+        title: "MySQL",
     },
     {
         name: "PostgreSQL",
         icon: SiPostgresql,
+        title: "PostgreSQL",
     },
     {
         name: "JSON",
         icon: SiJson,
+        title: "JSON",
     },
     {
         name: "XML",
         icon: SiXml,
+        title: "XML",
     },
     {
         name: "Git",
         icon: SiGit,
+        title: "Git",
     },
     {
         name: "GitHub",
         icon: SiGithub,
+        title: "GitHub",
     },
     {
         name: "NPM",
         icon: SiNpm,
+        title: "npm",
     },
     {
         name: "Yarn",
         icon: SiYarn,
+        title: "Yarn",
     },
     {
         name: "Figma",
         icon: SiFigma,
+        title: "Figma",
     },
     {
         name: "Python",
         icon: SiPython,
+        title: "Python",
     },
     {
         name: "Java",
         icon: FaJava,
+        title: "Java",
     },
     {
         name: "C",
         icon: SiC,
+        title: "C Prorammin Language",
     },
     {
         name: "C++",
         icon: SiCplusplus,
+        title: "C++",
     },
     {
         name: "AWS",
         icon: FaAws,
+        title: "AWS",
     },
 ]
 
@@ -153,7 +177,7 @@ const Skills = () => {
             <span>Design basics</span> (Figma & Adobe Photoshop)
           </li>
           <li>
-            <span>Programming languages</span> (Python, Java, C, C++, JavaScript, Typescript)
+            <span>Programming languages</span> (Python, Java, C, C++, JavaScript, Typescript, Liquid)
           </li>
           <li>
             <span>Operating systems</span> (Windows, Linux, and macOS)
