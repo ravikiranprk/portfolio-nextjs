@@ -8,7 +8,7 @@ const About = () => {
       <h2 className='text-3xl font-bold mb-4'>About Me</h2>
       <div className="about1">
         <p className='about-text'>
-            Hi, I'm Ravi Kiran Palaparthi, an aspiring Web Developer with hands-on knowledge of various <span>Frontend</span> (React.js, Angular, Vue.js, and Three.js), <span>Backend</span> (Node.js, Django), and <span>Fullstack</span> (Next.js, MERN, and Python fullstack) technologies and tools.
+            Hi, I'm Ravi Kiran Palaparthi, a Fullstack Web Developer with hands-on experience of various <span>Frontend</span> (React.js, Angular, Vue.js, and Three.js), <span>Backend</span> (Node.js, Django), and <span>Fullstack</span> (Next.js, MERN, and Python fullstack) technologies and tools.
         </p>
         <p className='about-interests'>
             I am a quick learner and eager to learn new technologies. I watch documentaries related to Science, Engineering, and Technology & updating with the current trends in the tech industry.
