@@ -14,9 +14,9 @@ export default function ProjectCard({ title, listItems, image, projectLink }) {
                         })}
                     </ul>
                 </div>
-                <div className="p-2 rounded-lg">
+                <div className="p-2">
                     <Link href={projectLink ?? "#"} target="_blank">
-                        <Image src={image ?? "/window.svg"} alt="project" width={500} height={500} />
+                        <Image src={image ?? "/window.svg"} alt="project" width={500} height={500} className="rounded-3xl" />
                     </Link>
                 </div>
             </div>
