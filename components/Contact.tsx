@@ -1,4 +1,6 @@
 "use client"
+
+import Image from "next/image";
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 
@@ -33,6 +35,7 @@ const Contact = () => {
 
       // Reset form and stop loading
       setForm({ name: "", email: "", message: "" });
+      alert("Your message was sent!");
     } catch (error) {
       console.error("EmailJS Error:", error);
     } finally {
@@ -98,7 +101,7 @@ const Contact = () => {
                       {loading ? "Sending..." : "Send Message"}
                     </p>
                     <div className="group-hover:bg-white size-10 rounded-full absolute right-10 top-1/2 -translate-y-1/2 flex justify-center items-center overflow-hidden">
-                      <img height={20} width={20} src="/arrow-down.svg" alt="arrow" className="text-[var(--foreground)] xl:-translate-y-32 translate-y-0 animate-bounce group-hover:translate-y-0 transition-all duration-500" />
+                      <Image height={20} width={20} src="/arrow-down.svg" alt="arrow" className="text-[var(--foreground)] xl:-translate-y-32 translate-y-0 animate-bounce group-hover:translate-y-0 transition-all duration-500" />
                     </div>
                   </div>
                 </button>

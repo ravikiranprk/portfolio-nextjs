@@ -8,7 +8,7 @@ export default function Projects() {
             {projects.map((project, index) => {
                 return (
                     <div key={index}>
-                        <ProjectCard title={project.title} listItems={project.listItems} />
+                        <ProjectCard title={project.title} listItems={project.listItems} image={project.image} projectLink={project.projectLink} />
                     </div>
                 )
             })}

@@ -11,13 +11,13 @@ export default function Home() {
     <main className="lg:w-4/5 md:w-5/6 w-11/12 mx-auto">
       <Hero />
       <hr />
-      <About />
+      <Projects />
       <hr />
       <Skills />
       <hr />
-      <Experience />
+      <About />
       <hr />
-      <Projects />
+      <Experience />
       <hr />
       <Contact />
       <hr />
