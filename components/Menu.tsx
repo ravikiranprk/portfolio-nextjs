@@ -17,7 +17,7 @@ const Menu = () => {
         <li className={`${themeValue === "dark" ? 'text-zinc-300' : 'text-[#292929]'}`}>|</li>
         <li><a href="#about"><CircleUserRound />About</a></li>
         <li><a href="#skills"><BookOpenCheck />Skills</a></li>
-        <li><a href="#project"><FolderOpenDot />Projects</a></li>
+        <li><a href="#projects"><FolderOpenDot />Projects</a></li>
         <li><a href="#experience"><BriefcaseBusiness />Experience</a></li>
         <li><a href="#contact"><Mail />Contact</a></li>
       </ul>
@@ -28,7 +28,7 @@ const Menu = () => {
         <li className={`${themeValue === "dark" ? 'text-zinc-300' : 'text-[#292929]'}`}>|</li>
         <li><a href="#about"><CircleUserRound />About</a></li>
         <li><a href="#skills"><BookOpenCheck />Skills</a></li>
-        <li><a href="#project"><FolderOpenDot />Projects</a></li>
+        <li><a href="#projects"><FolderOpenDot />Projects</a></li>
         <li><a href="#experience"><BriefcaseBusiness />Experience</a></li>
         <li><a href="#contact"><Mail />Contact</a></li>
         <li>
