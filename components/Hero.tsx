@@ -104,7 +104,7 @@ const Hero = () => {
           </div>
         </header>
       </div>
-      <div>
+      <div className="flex justify-center items-center gap-3 p-5">
         {socialIcons.map((icon) => (
           <Link
             key={icon.socialUrl}
